@@ -33,4 +33,5 @@ def break_cypher(Text):
     
     return best_transformation
 
-print(break_cypher('Jovjvshal Zbukhl')) # Output: CHOCOLATE SUNDAE
+input_text = input("Enter scrambled text: ")
+print(break_cypher(input_text))
